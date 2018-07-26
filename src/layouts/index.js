@@ -11,6 +11,11 @@ const Layout = ({ children, data }) => (
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
+        {
+          name: 'viewport',
+          content:
+            'width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0',
+        },
         { name: 'description', content: data.site.siteMetadata.description },
         { name: 'keywords', content: data.site.siteMetadata.keywords },
       ]}
