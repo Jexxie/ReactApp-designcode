@@ -12,8 +12,8 @@ const Text = styled.p`
   font-size: 24px;
   font-weight: 600;
   color: #486791;
-  max-width: 500px;
-  margin: 0 auto;
+  margin: 0 20px;
+  text-align: center;
 `
 
 const Button = styled.button`
@@ -35,7 +35,6 @@ const Button = styled.button`
 `
 
 const LinkGroup = styled.div`
-  width: 500px;
   margin: 50px auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -52,7 +51,6 @@ const LinkGroup = styled.div`
 
 const Copyright = styled.div`
   color: #486791;
-  max-width: 500px;
   margin: 0 auto;
   padding: 0 20px;
 `
